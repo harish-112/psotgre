@@ -34,6 +34,8 @@ cv2.waitKey(0)
 # Find contours (potential words)
 contours, _ = cv2.findContours(closed, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
+#auufg
+
 # Draw bounding boxes
 result = img.copy()
 for cnt in contours:
